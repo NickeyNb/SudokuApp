@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SUDOKU</title>
+        <link rel="stylesheet" href="sstyle.css">
+        <script src="index.js"></script>
+        <header>    
+            <h1> SUDOKU </h1>
+            <div id ="setup-game">
+                <div id ="diff">    <!-- for choosing difficulty -->
+                    <h3>Choose difficulty : </h3>
+                    <label><input id="diff-1" type="radio" name="diff" value="easy" checked> Easy</label>
+                    <label><input id="diff-2" type="radio" name="diff" value="medium" >Medium</label>
+                    <label><input id="diff-3" type="radio" name="diff" value="hard" >Hard</label>
+                </div>
+                <div id ="time">   <!-- for choosing time -->
+                    <h3>Choose Time : </h3>
+                    <label><input id="time-1" type="radio" name="time" value="five" checked>5 Min</label>
+                    <label><input id="time-2" type="radio" name="time" value="ten" >10 Min</label>
+                    <label><input id="time-3" type="radio" name="time" value="twenty" >20 Min</label>
+                </div>
+                <div id ="theme">   <!-- for choosing theme -->
+                    <h3>Choose Theme : </h3>
+                    <label><input id="theme-1" type="radio" name="theme" value="light"checked>Light</label>
+                    <label><input id="theme-2" type="radio" name="theme" value="dark" >Dark</label>
+                </div>
+            </div>
+            <button id="start-btn">Create New Game !</button>
+        </header>
+    </head>
+    <body>
+        <div id="stats">
+            <p id="timer"></p>
+            <p id="lives"></p>
+        </div>
+        <div id="game">
+            <div id="board"></div>
+<div id="number-container"class="hidden">
+    <p id="one">1</p>
+    <p id="two">2</p>
+    <p id="three">3</p>
+    <p id="four">4</p>
+    <p id="five">5</p>
+    <p id="six">6</p>
+    <p id="seven">7</p>
+    <p id="eight">8</p>
+    <p id="nine">9 </p>
+</div> 
+       </div>
+    </body>
+    <footer>
+        <marquee> SUDOKU : NITIN BISHT </marquee>
+    </footer>
+</html>
